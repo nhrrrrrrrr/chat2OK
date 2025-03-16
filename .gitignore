@@ -25,9 +25,3 @@ dist-ssr
 *.sln
 *.sw?
 
-#
-*.dio
-1.js
-2.js
-3.js
-4.js
