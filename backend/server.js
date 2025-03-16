@@ -21,7 +21,7 @@ app.use(cookieParser());
 
 // CORS Configuration
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "http://localhost:3001",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   optionsSuccessStatus: 204,
