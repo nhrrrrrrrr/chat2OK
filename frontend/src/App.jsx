@@ -2,8 +2,7 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
 import { Navigate, Route, Routes } from "react-router-dom";
-// import "./index.css";
-// import ChartsComponent from "./components/dashboard/ChartsComponent";
+
 import { useAuthContext } from "./context/AuthContext";
 // import DashboardPage from "./pages/dashboardPage/DashboardPage";
 import Home from "./pages/home/Home";
@@ -19,6 +18,9 @@ const queryClient = new QueryClient({
     },
   },
 });
+function ChartsComponent() {
+  return <div>Charts</div>;
+}
 function App() {
   const { authUser } = useAuthContext();
 
